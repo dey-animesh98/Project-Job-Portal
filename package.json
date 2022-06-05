@@ -1,0 +1,28 @@
+{
+  "name": "project-job_portal",
+  "version": "1.0.0",
+  "description": "Job Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "project-Job_Portal"
+  },
+  "keywords": [
+    "My_Project"
+  ],
+  "author": "Animesh Dey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
